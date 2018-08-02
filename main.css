@@ -1,0 +1,119 @@
+/* this is the head section */
+/*  */
+/*  */
+
+header {
+    width: 100vw;
+    height: 100px;
+    /* background: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4vw;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: darkslategray;
+}
+
+#logo {
+    /* float: left; */
+    margin-left: 2.2vw;
+}
+
+.buttons_all {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+}
+
+.button{
+    height: 23px;
+    margin-right: 2px;
+    background: aliceblue;
+    border-radius: 5px;
+    /* change font style and round corners*/
+}
+
+nav {
+    /* float: right; */
+    display: flex;
+}
+
+nav h2{
+    /* background: lightcoral; */
+    /* margin-left: 1vw; */
+    margin-left: 20px;
+}
+
+
+/* this is the main section */
+/*  */
+/*  */
+
+main{
+    /* background: lightcyan; */
+    min-height: calc(100vh - 100px);
+}
+
+.filters {
+    /* background: lightgray; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1.4vw;
+}
+
+h3{
+    /* margin-left: 1.3vw; */
+    margin-left: 25px;
+    letter-spacing: 3px;
+    font-size: 0.8em;
+    /* make the letters farther apart */
+}
+
+.products {
+    /* background: lightslategray; */
+    min-height: calc(100vh - 160px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 7vw 10px;
+}
+
+.product_holders{
+    height: 500px;
+    width: 425px;
+    background: whitesmoke;
+    margin: 40px 20px 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+
+
+/* this is the footer section */
+/*  */
+/*  */
+
+.footer_links {
+    /* background: lightgray; */
+    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.footer_links h4 {
+    margin-left: 15px;
+    color: darkslategrey;
+}
+
+#watermark {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+}
